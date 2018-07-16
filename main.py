@@ -41,6 +41,7 @@ test_loader = torch.utils.data.DataLoader(
 	shuffle=False
 )
 
+# Define the neural network
 class FC(torch.nn.Module):
 	def __init__(self):
 		super().__init__()
